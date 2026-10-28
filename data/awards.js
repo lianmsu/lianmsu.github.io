@@ -45,6 +45,13 @@ window.RESUME_AWARDS = {
       key: "national",
       title: { zh: "国家级", en: "National" },
       items: [
+        { date: { zh: "2026.09", en: "Sep 2026" }, text: { zh: "国家奖学金", en: "National Scholarship" }, org: { zh: "北京大学", en: "Peking University" }, home: true }
+      ]
+    },
+    {
+      key: "national",
+      title: { zh: "国家级", en: "National" },
+      items: [
         { date: { zh: "2023.09", en: "Sep 2023" }, text: { zh: "国家奖学金", en: "National Scholarship" }, org: { zh: "南京大学", en: "Nanjing University" }, home: true }
       ]
     },
@@ -108,16 +115,14 @@ window.RESUME_AWARDS = {
     {
       period: { zh: "北京大学", en: "Peking University" },
       title: { zh: "《环境科学与工程前沿》课程助教", en: "Teaching Assistant, Frontiers of Environmental Science and Engineering" },
-      note: { zh: "授课教师：倪晋仁 院士；制作专家海报 12 次，促进学术交流", en: "Instructor: Prof. Jinren Ni; produced 12 expert posters to support the seminar series" }
+      note: { zh: "授课教师：倪晋仁 院士；制作专家海报 10+ 次，促进学术交流", en: "Instructor: Prof. Jinren Ni; produced 10+ expert posters to support the seminar series" }
     }
   ],
 
   /* ---------- 学术活动 ---------- */
   academic: [
     { zh: "青年学生基础科学研究年会", en: "Annual Meeting on Basic Research for Young Students" },
-    { zh: "新基石 502 论坛", en: "New Cornerstone 502 Forum" },
-    { zh: "与薛其坤、施一公、潘建伟等院士专家面对面交流", en: "Face-to-face discussions with CAS academicians incl. Qikun Xue, Yigong Shi and Jianwei Pan" },
-    { zh: "在党支部及学院活动中多次分享学术经验与科研方法", en: "Repeatedly shared research experience and methods within the branch and college" }
+    { zh: "新基石 502 论坛", en: "New Cornerstone 502 Forum" }
   ],
 
   /* ---------- 志愿服务 ---------- */
