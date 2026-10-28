@@ -23,8 +23,8 @@
 window.RESUME_PUBLICATIONS = {
 
   intro: {
-    zh: "以第一或合作作者身份共发表论文 7 篇，其中独立第一作者 3 篇。另有 1 篇在 *Nature Communications* 返修、2 篇在审并已发布预印本。带 ★ 的为代表性工作。",
-    en: "7 peer-reviewed papers (3 as sole first author), plus one manuscript under revision at *Nature Communications* and two under review with preprints. Works marked ★ are selected highlights."
+    zh: "以第一或合作作者身份共发表论文 7 篇，其中独立第一作者 4 篇。2 篇在审并已发布预印本。带 ★ 的为代表性工作。",
+    en: "7 peer-reviewed papers (4 as sole first author), two under review with preprints. Works marked ★ are selected highlights."
   },
 
   groups: [
@@ -34,6 +34,20 @@ window.RESUME_PUBLICATIONS = {
       key: "first-author",
       title: { zh: "已发表 · 独立第一作者", en: "Published · Sole first author" },
       items: [
+        {
+          date: "2026",
+          title: "Microbial evolutionary arms races across glacier-to-river gradients",
+          authors: "Li P, et al.",
+          venue: "Nature Communications",
+          cite: "accepted, 2026",          status: { zh: "接收", en: "Accepted" },
+          role: { zh: "独立第一作者", en: "Sole first author" },
+          tags: ["SCI 一区"],
+          doi: "",
+          summary: {
+            zh: "基于西南高原河流项目与微生物采样数据，刻画从冰川到高原河流、再到非高原河流的病毒—宿主互作梯度变化；确定冰川是微生物防御热点，并发现溶原噬菌体介导的「混合免疫」现象。",
+            en: "A glacier-to-river gradient survey of virus–host interactions, identifying glaciers as hotspots of microbial defense and uncovering lysogeny-mediated 'hybrid immunity'."
+          }
+        },
         {
           date: "2025.07",
           featured: true,
@@ -119,20 +133,6 @@ window.RESUME_PUBLICATIONS = {
       key: "under-review",
       title: { zh: "返修 · 在审 · 预印本", en: "Under Revision / Under Review / Preprints" },
       items: [
-        {
-          date: "2026",
-          title: "Microbial evolutionary arms races across glacier-to-river gradients",
-          authors: "Li P, et al.",
-          venue: "Nature Communications",
-          cite: "under revision, 2026",          status: { zh: "返修中", en: "Under revision" },
-          role: { zh: "独立第一作者", en: "Sole first author" },
-          tags: ["SCI 一区"],
-          doi: "",
-          summary: {
-            zh: "基于西南高原河流项目与微生物采样数据，刻画从冰川到高原河流、再到非高原河流的病毒—宿主互作梯度变化；确定冰川是微生物防御热点，并发现溶原噬菌体介导的「混合免疫」现象。",
-            en: "A glacier-to-river gradient survey of virus–host interactions, identifying glaciers as hotspots of microbial defense and uncovering lysogeny-mediated 'hybrid immunity'."
-          }
-        },
         {
           date: "2026",
           title: "Functional profiling of ESKAPE viromes uncovers resistance-limiting phage-host dynamics",
