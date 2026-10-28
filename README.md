@@ -2,7 +2,7 @@
 
 仿照 [liyu95.com](https://liyu95.com/) 的风格搭建的学术个人主页，托管在 GitHub Pages 上。
 
-- **网站地址**：<https://pengweili.github.io/>
+- **网站地址**：<https://lianmsu.github.io/>
 - **技术栈**：纯静态 HTML + CSS + 原生 JavaScript，**不需要安装任何工具、不需要编译**
 - **更新方式**：所有内容都在 `data/` 目录下的三个文件里，改文字即可
 
@@ -11,7 +11,7 @@
 ## 一、文件结构
 
 ```
-pengweili.github.io/
+lianmsu.github.io/
 ├── index.html            首页（个人简介 + 动态 + 研究方向 + 教育 + 代表作 + 荣誉 + 学生工作）
 ├── publications.html     论文页
 ├── awards.html           荣誉奖励页
@@ -127,7 +127,7 @@ pengweili.github.io/
 
 登录 GitHub → 右上角 `+` → `New repository`：
 
-- **Repository name**：`pengweili.github.io`（必须完全一致，网址才会是 `https://pengweili.github.io/`）
+- **Repository name**：`lianmsu.github.io`（必须完全一致，网址才会是 `https://lianmsu.github.io/`）
 - 可见性：**Public**
 - **不要**勾选 "Add a README file"（我们本地已经有了）
 
@@ -136,7 +136,7 @@ pengweili.github.io/
 在这个文件夹里打开终端（右键 → "在终端中打开"），依次执行：
 
 ```bash
-git remote add origin https://github.com/pengweili/pengweili.github.io.git
+git remote add origin https://github.com/lianmsu/lianmsu.github.io.git
 git branch -M main
 git push -u origin main
 ```
@@ -152,10 +152,10 @@ Developer settings → Personal access tokens 里生成，勾选 `repo` 权限�
 - **Branch**：`main`，目录选 `/ (root)`
 - 点 `Save`
 
-等 1—2 分钟，访问 <https://pengweili.github.io/> 就能看到了。
+等 1—2 分钟，访问 <https://lianmsu.github.io/> 就能看到了。
 
-> **如果 GitHub 用户名不叫 `pengweili`**，或者仓库名不是 `pengweili.github.io`，
-> 需要把网站里写死的网址一起改掉。全局搜索 `pengweili.github.io` 会找到这些位置：
+> **如果以后改了仓库名**，
+> 需要把网站里写死的网址一起改掉。全局搜索 `lianmsu.github.io` 会找到这些位置：
 > `index.html` / `publications.html` / `awards.html` / `activities.html` / `cv.html` 里的
 > `<link rel="canonical">`、`og:url`、`og:image` 和 JSON-LD，以及 `data/site.js` 里的 `site.url`。
 > （只是给人看的网址，不影响网站能不能打开，但改掉更规范。）

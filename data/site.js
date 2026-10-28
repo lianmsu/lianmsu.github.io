@@ -21,7 +21,7 @@ window.RESUME_SITE = {
 
   /* ---------- 网站本身 ---------- */
   site: {
-    url: "https://pengweili.github.io",   // 你的 GitHub Pages 网址（换仓库名时要改）
+    url: "https://lianmsu.github.io",   // 你的 GitHub Pages 网址（换仓库名时要改）
     updated: { zh: "2026 年 10 月", en: "October 2026" }
   },
 
@@ -61,7 +61,8 @@ window.RESUME_SITE = {
     links: [
       { label: { zh: "邮箱", en: "Email" }, href: "mailto:pengweili@stu.pku.edu.cn", text: "pengweili@stu.pku.edu.cn" },
       { label: { zh: "学院", en: "College" }, href: "https://cese.pku.edu.cn/", text: { zh: "学院主页", en: "College website" } },
-      { label: { zh: "学校", en: "University" }, href: "https://www.pku.edu.cn/", text: { zh: "北京大学", en: "Peking University" } }
+      { label: { zh: "学校", en: "University" }, href: "https://www.pku.edu.cn/", text: { zh: "北京大学", en: "Peking University" } },
+      { label: { zh: "GitHub", en: "GitHub" }, href: "https://github.com/lianmsu", text: "github.com/lianmsu" }
     ]
   },
 
