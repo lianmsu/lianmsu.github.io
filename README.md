@@ -205,6 +205,21 @@ git push
 2. 等 1—2 分钟（GitHub Pages 有构建延迟）；
 3. 强制刷新页面：`Ctrl + F5`。
 
+**网站打不开了（显示 `Site not found · GitHub Pages`）？**
+
+注意：如果看到的是 GitHub 自己的 `Site not found` 页面，而不是本项目的 `404.html`，
+说明是**托管层没有可用部署**，与 `data/` 里的代码无关。按这个顺序排查：
+
+1. 打开 <https://github.com/lianmsu/lianmsu.github.io/actions>，看
+   `pages build and deployment` 有没有对**你最新那次 commit** 的成功记录。
+2. **没有构建记录**（push 了但什么都没触发）→ 去
+   `Settings → Pages`，把 Source 重新选一次：
+   `Deploy from a branch` → `main` → `/ (root)` → **Save**。
+   保存会强制重新触发一次构建。2026-10-28 就遇到过这种情况：连续 4 次 push 全部没有触发构建，
+   站点 404，重新 Save 一次后立刻恢复。
+3. **有构建记录但状态是 `errored`** → 点进去看错误信息；最常见的原因仍然是
+   `data/*.js` 里少了逗号或多了一个英文引号（注意中文引号要用 `「」`）。
+
 **想加一个新页面？**
 复制 `awards.html` 改个文件名，把 `data-page="awards"` 改成新名字，
 再在 `assets/js/app.js` 的 `RENDERERS` 和 `navItems()` 里各加一行即可。
