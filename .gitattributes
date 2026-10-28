@@ -1,0 +1,5 @@
+# 统一换行符，避免 Windows 下每次提交出现大量行尾变化
+* text=auto eol=lf
+
+*.jpg binary
+*.png binary
