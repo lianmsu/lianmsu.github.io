@@ -1,6 +1,5 @@
 # 李鹏伟 · 个人主页
-
-仿照 [liyu95.com](https://liyu95.com/) 的风格搭建的学术个人主页，托管在 GitHub Pages 上。
+学术个人主页，托管在 GitHub Pages 上。
 
 - **网站地址**：<https://lianmsu.github.io/>
 - **技术栈**：纯静态 HTML + CSS + 原生 JavaScript，**不需要安装任何工具、不需要编译**
