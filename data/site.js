@@ -42,7 +42,7 @@ window.RESUME_SITE = {
     },
     subhead: {
       zh: "环境病毒组学 · 微生物防御系统 · 病毒—宿主共进化",
-      en: "Environmental Viromics · Microbial Defense Systems · Virus–Host Coevolution"
+      en: "Environmental microbial ecology · Viromics · Microbial Defense Systems · Virus–Host Coevolution"
     },
     advisor: {
       zh: "导师：倪晋仁 院士 · 2024 级直博生",
@@ -52,9 +52,7 @@ window.RESUME_SITE = {
     // 首页右侧的一排小标签；想删就整行删掉
     facts: [
       { label: { zh: "籍贯", en: "Hometown" }, value: { zh: "山西 · 万荣", en: "Wanrong, Shanxi" } },
-      { label: { zh: "政治面貌", en: "Political status" }, value: { zh: "中共党员", en: "CPC Member" } },
-      { label: { zh: "课程绩点", en: "GPA" }, value: "3.90" },
-      { label: { zh: "综合测评", en: "Ranking" }, value: "7 / 33" }
+      { label: { zh: "政治面貌", en: "Political status" }, value: { zh: "中共党员", en: "CPC Member" } }
     ],
 
     // 姓名下方的一排链接
@@ -81,34 +79,6 @@ window.RESUME_SITE = {
         zh: "合作论文发表于 *Nature Communications*（第三作者）。",
         en: "A collaborative paper was published in *Nature Communications* (third author)."
       }
-    },
-    {
-      date: { zh: "2026.03", en: "Mar 2026" },
-      text: {
-        zh: "获评**北京市三好学生**。",
-        en: "Awarded **Beijing Municipal Merit Student**."
-      }
-    },
-    {
-      date: { zh: "2026.01", en: "Jan 2026" },
-      text: {
-        zh: "主持的**国家自然科学基金青年学生基础研究项目**正式启动（2026.01–2029.12）；同期合作论文发表于 *Nature Water*（第四作者）。",
-        en: "The NSFC Basic Research Program for Young Students (PI, 2026.01–2029.12) has started; a collaborative paper appeared in *Nature Water* (fourth author)."
-      }
-    },
-    {
-      date: { zh: "2025.12", en: "Dec 2025" },
-      text: {
-        zh: "获北京大学**五四奖学金**、**三好学生标兵**与**学术创新奖**。",
-        en: "Received PKU's **May Fourth Scholarship**, **Merit Student (Model)** and **Academic Innovation Award**."
-      }
-    },
-    {
-      date: { zh: "2025.07", en: "Jul 2025" },
-      text: {
-        zh: "独立一作论文 *The defensome of prokaryotes in aquifers* 发表于 **Nature Communications**；同月起任环境工程系研究生第二党支部书记。",
-        en: "First-author paper *The defensome of prokaryotes in aquifers* was published in **Nature Communications**; appointed Secretary of the graduate Party branch."
-      }
     }
   ],
 
@@ -119,8 +89,8 @@ window.RESUME_SITE = {
       en: "I am a direct-entry Ph.D. student (2024) in Environmental Engineering at Peking University, advised by Prof. Jinren Ni. My research asks one central question: in ecosystems least disturbed by humans — **groundwater** and **glacier-fed rivers** — how do bacteria and phages co-evolve over billions of years, and how does this arms race shape the spread of antibiotic resistance genes?"
     },
     {
-      zh: "我以独立第一作者身份在 *Nature Communications*、*Chemical Engineering Journal*、*Journal of Hazardous Materials* 等期刊发表论文 3 篇，另以第一或合作作者身份累计发表 7 篇；另有 1 篇独立一作论文在 *Nature Communications* 返修，2 篇独立一作论文在审并已发布预印本。我主持一项国家自然科学基金青年学生基础研究项目，并入选中国科协青年科技人才培育工程博士生专项计划。",
-      en: "As sole first author I have published in *Nature Communications*, *Chemical Engineering Journal* and *Journal of Hazardous Materials*, with 7 papers in total as first or co-author. One further first-author manuscript is under revision at *Nature Communications*, and two more are under review with preprints available. I lead an NSFC Basic Research Program for Young Students and have been selected for the CAST Young Science Talent Cultivation Program (Ph.D. track)."
+      zh: "我以独立第一作者身份在 *Nature Communications*、*Chemical Engineering Journal*、*Journal of Hazardous Materials* 等期刊发表论文 3 篇，另以第一或合作作者身份累计发表 7 篇；2 篇独立一作论文在审并已发布预印本。我主持一项国家自然科学基金青年学生基础研究项目，并入选中国科协青年科技人才培育工程博士生专项计划。",
+      en: "As sole first author I have published in *Nature Communications*, *Chemical Engineering Journal* and *Journal of Hazardous Materials*, with 7 papers in total as first or co-author. Two more are under review with preprints available. I lead an NSFC Basic Research Program for Young Students and have been selected for the CAST Young Science Talent Cultivation Program (Ph.D. track)."
     },
     {
       zh: "我的长期目标，是把病毒—宿主互作的基础发现转化为可落地的环境生物技术——用噬菌体精准靶向耐药病原菌，并把抗性基因的风险评估从「看丰度」推进到「看风险」。",
