@@ -154,6 +154,12 @@ Developer settings → Personal access tokens 里生成，勾选 `repo` 权限�
 
 等 1—2 分钟，访问 <https://pengweili.github.io/> 就能看到了。
 
+> **如果 GitHub 用户名不叫 `pengweili`**，或者仓库名不是 `pengweili.github.io`，
+> 需要把网站里写死的网址一起改掉。全局搜索 `pengweili.github.io` 会找到这些位置：
+> `index.html` / `publications.html` / `awards.html` / `activities.html` / `cv.html` 里的
+> `<link rel="canonical">`、`og:url`、`og:image` 和 JSON-LD，以及 `data/site.js` 里的 `site.url`。
+> （只是给人看的网址，不影响网站能不能打开，但改掉更规范。）
+
 ---
 
 ## 五、以后怎么更新

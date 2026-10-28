@@ -52,7 +52,7 @@ window.RESUME_SITE = {
     // 首页右侧的一排小标签；想删就整行删掉
     facts: [
       { label: { zh: "籍贯", en: "Hometown" }, value: { zh: "山西 · 万荣", en: "Wanrong, Shanxi" } },
-      { label: { zh: "政治面貌", en: "Affiliation" }, value: { zh: "中共党员", en: "CPC Member" } },
+      { label: { zh: "政治面貌", en: "Political status" }, value: { zh: "中共党员", en: "CPC Member" } },
       { label: { zh: "课程绩点", en: "GPA" }, value: "3.90" },
       { label: { zh: "综合测评", en: "Ranking" }, value: "7 / 33" }
     ],
