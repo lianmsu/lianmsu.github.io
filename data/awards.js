@@ -36,8 +36,8 @@ window.RESUME_AWARDS = {
 
   /* ---------- 荣誉奖励 ---------- */
   intro: {
-    zh: "本科以来共获国家级、省级、校级荣誉奖励 10 项。",
-    en: "Ten honors and awards at national, provincial and university levels since undergraduate study."
+    zh: "本科以来共获国家级、省级、校级荣誉奖励 11 项。",
+    en: "Eleven honors and awards at national, provincial and university levels since undergraduate study."
   },
 
   awardGroups: [
@@ -45,13 +45,7 @@ window.RESUME_AWARDS = {
       key: "national",
       title: { zh: "国家级", en: "National" },
       items: [
-        { date: { zh: "2026.09", en: "Sep 2026" }, text: { zh: "国家奖学金", en: "National Scholarship" }, org: { zh: "北京大学", en: "Peking University" }, home: true }
-      ]
-    },
-    {
-      key: "national",
-      title: { zh: "国家级", en: "National" },
-      items: [
+        { date: { zh: "2026.09", en: "Sep 2026" }, text: { zh: "国家奖学金", en: "National Scholarship" }, org: { zh: "北京大学", en: "Peking University" }, home: true },
         { date: { zh: "2023.09", en: "Sep 2023" }, text: { zh: "国家奖学金", en: "National Scholarship" }, org: { zh: "南京大学", en: "Nanjing University" }, home: true }
       ]
     },
