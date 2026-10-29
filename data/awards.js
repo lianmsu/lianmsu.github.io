@@ -30,7 +30,7 @@ window.RESUME_AWARDS = {
         en: "CAST Young Science Talent Cultivation Program (Ph.D. track)"
       },
       role: { zh: "入选", en: "Selected" },
-      level: { zh: "国家级", en: "National" }
+      level: { zh: "", en: "" }
     }
   ],
 
