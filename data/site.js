@@ -72,13 +72,6 @@ window.RESUME_SITE = {
         zh: "两项独立一作工作以预印本形式上线 bioRxiv：ESKAPE 病原菌病毒组的功能谱与耐药传播限制机制，以及基于 CRISPR 图谱的粘细菌噬菌体全球分布。",
         en: "Two first-author preprints are now on bioRxiv: functional profiling of ESKAPE viromes and CRISPR-guided mapping of myxobacterial phages."
       }
-    },
-    {
-      date: { zh: "2026.07", en: "Jul 2026" },
-      text: {
-        zh: "合作论文发表于 *Nature Communications*（第三作者）。",
-        en: "A collaborative paper was published in *Nature Communications* (third author)."
-      }
     }
   ],
 
