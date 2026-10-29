@@ -104,8 +104,8 @@ window.RESUME_PUBLICATIONS = {
         {
           date: "2026.07",
           pendingTitle: true,
-          title: "",
-          authors: "Li P (3rd author), et al.",
+          title: "Elevation-structured viral ecological strategies along glacier-fed rivers on the Qinghai-Tibet Plateau",
+          authors: "",
           venue: "Nature Communications",
           cite: "2026",
           role: { zh: "第三作者", en: "Third author" },
@@ -116,8 +116,8 @@ window.RESUME_PUBLICATIONS = {
         {
           date: "2026.01",
           pendingTitle: true,
-          title: "",
-          authors: "Li P (4th author), et al.",
+          title: "Phage-mediated resistome dynamics in global aquifers",
+          authors: "",
           venue: "Nature Water",
           cite: "2026",
           role: { zh: "第四作者", en: "Fourth author" },
